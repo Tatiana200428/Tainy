@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 400px auto;
+    gap: 10px;
+    margin: 10px;
+}
+
+input{
+    padding: 8px;
+    border: none;
+    border-radius: 17px;
+}
+
+.formulario {
+    background: wheat;
+    padding: 20px;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    justify-content: start;
+}
+
+.boton{
+    background: greenyellow;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 80%;
+    color:black;
+}
+
+.info{
+    padding: 5px;
+}
+
+
+.card {
+    background: wheat;
+    display: flex;
+    flex-direction: row;
+}
+
+img{
+    width: 30%;
+    height: auto;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.evento{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px;
+    margin: 20px;
+}
+.title{
+    display: grid;
+    grid-column: 1/4;
+}
+
+.todora{
+    padding: 8px;
+}
+
+
